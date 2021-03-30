@@ -29,3 +29,4 @@ RUN apt-get update && \
 	rm -rf /var/apt/lists/*
 
 
+ENV PATH $PATH:/zigdev/zig/build/bin
